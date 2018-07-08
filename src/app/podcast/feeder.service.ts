@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Podcast } from '../models';
+import { Podcast, Episode } from '../models';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -26,7 +26,7 @@ export class FeederService {
     );
   }
 
-  /* getEpisodes(podcastId: string): Observable<Episode[]> {
+  getEpisodes(podcastId: string): Observable<Episode[]> {
     return this.http.get('https://feeder.prx.org/api/v1/podcasts/' + podcastId + '/episodes').pipe(
       map(data =>
         data['_embedded']['prx:items'].map(item => {
@@ -39,5 +39,5 @@ export class FeederService {
         })
       )
     );
-  } */
+  }
 }
