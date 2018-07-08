@@ -118,5 +118,8 @@
       }
     }
   },
-  "defaultProject": "feeder-reader"
+  "defaultProject": "feeder-reader",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
