@@ -1,0 +1,19 @@
+label {
+  cursor: pointer;
+  color: blue;
+  font-size: 18px;
+  line-height: 25px;
+}
+input[type='checkbox'] {
+  display: none;
+}
+input[type='checkbox']:checked ~ label:after {
+  margin-left: 0.5em;
+  content: '\2605';
+}
+input[type='checkbox']:checked ~ label {
+  font-weight: 700;
+}
+ul {
+  margin-top: 0;
+}
