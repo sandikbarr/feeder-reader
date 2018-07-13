@@ -1,5 +1,7 @@
 # FeederReader
 
+This example app is for the presentation [NgRx: Using TypeScript with Redux-style State Management](https://docs.google.com/presentation/d/1rA6epFm0xnBP7hD_M5y78HaQiRfiE6y87OJFtwol0gU/edit?usp=sharing).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server
